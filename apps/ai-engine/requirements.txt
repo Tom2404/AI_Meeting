@@ -1,0 +1,11 @@
+# Dependencies: torch, transformers
+torch>=2.0.0
+transformers>=4.30.0
+openai-whisper>=20231117
+pyannote.audio>=3.1.0
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.24.0
+scipy>=1.10.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0

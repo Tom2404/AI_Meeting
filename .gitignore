@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw_audio/*.wav
+data/raw_audio/*.mp3
+data/transcripts/*.json
+
+# Models
+apps/ai-engine/models/**/*.bin
+apps/ai-engine/models/**/*.pt
+apps/ai-engine/models/**/*.pth
